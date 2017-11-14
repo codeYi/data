@@ -1,0 +1,2767 @@
+[ 2017-10-15T09:09:49+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T09:09:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cx_price>0 and start<1508029798 and end>1508029798 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8,9,12,7) ) LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (13,10) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 30 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (11) ) LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T09:10:05+08:00 ] 127.0.0.1 /Goods/index/goods_id/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and id=64 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=64 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0070s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.goods_id=64 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CommentModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Home\Model\CommentModel.class.php 第 70 行.
+NOTIC: [2048] Declaration of Home\Model\CommentModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Home\Model\CommentModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `jx_comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_comment` WHERE ( goods_id=64 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.username FROM jx_comment a left join jx_user b on a.user_id = b.id  WHERE ( goods_id=64 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_impression` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jx_impression` WHERE ( goods_id=64 ) ORDER BY count desc LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_name D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Home\7b3635392bd764ae088d371efaef15dc.php 第 453 行.
+NOTIC: [8] Undefined index: user_name D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Home\7b3635392bd764ae088d371efaef15dc.php 第 453 行.
+NOTIC: [8] Use of undefined constant good - assumed 'good' D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Home\7b3635392bd764ae088d371efaef15dc.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T09:10:05+08:00 ] 127.0.0.1 /Public/Home/images/zoomloader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T09:10:09+08:00 ] 127.0.0.1 /Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id = 64 and goods_attr_ids = '164,165,167' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, boolean given D:\phpStudy\WWW\jxshop\Application\Home\Model\CartModel.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T09:10:10+08:00 ] 127.0.0.1 /Goods/index/goods_id/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and id=64 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=64 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0060s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.goods_id=64 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CommentModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Home\Model\CommentModel.class.php 第 70 行.
+NOTIC: [2048] Declaration of Home\Model\CommentModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Home\Model\CommentModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `jx_comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_comment` WHERE ( goods_id=64 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.username FROM jx_comment a left join jx_user b on a.user_id = b.id  WHERE ( goods_id=64 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_impression` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_impression` WHERE ( goods_id=64 ) ORDER BY count desc LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_name D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Home\7b3635392bd764ae088d371efaef15dc.php 第 453 行.
+NOTIC: [8] Undefined index: user_name D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Home\7b3635392bd764ae088d371efaef15dc.php 第 453 行.
+NOTIC: [8] Use of undefined constant good - assumed 'good' D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Home\7b3635392bd764ae088d371efaef15dc.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T09:10:11+08:00 ] 127.0.0.1 /Public/Home/images/zoomloader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-15T09:10:15+08:00 ] 127.0.0.1 /Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_values,b.attr_name FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( a.id in (164,165,167) )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T09:10:20+08:00 ] 127.0.0.1 /order/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T09:10:23+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T09:10:23+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T09:10:26+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T09:10:32+08:00 ] 127.0.0.1 /User/code.html?_=1508029832779
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T09:10:33+08:00 ] 127.0.0.1 /User/code.html?_=1508029832779?_=1508029833203
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T09:10:37+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_cart` WHERE `user_id` = '14' AND `goods_id` = '64' AND `goods_attr_ids` = '164,165,167' LIMIT 1   [ RunTime:0.0160s ]
+SQL: UPDATE `jx_cart` SET `goods_count`='2' WHERE `user_id` = '14' AND `goods_id` = '64' AND `goods_attr_ids` = '164,165,167' [ RunTime:0.1560s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\phpStudy\WWW\jxshop\Application\Home\Model\UserModel.class.php 第 60 行.
+
+[ 2017-10-15T09:10:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cx_price>0 and start<1508029837 and end>1508029837 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8,9,12,7) ) LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (13,10) ) LIMIT 8   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tree D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 30 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (11) ) LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T09:10:42+08:00 ] 127.0.0.1 /Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_cart` WHERE ( user_id=14 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_values,b.attr_name FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( a.id in (164,165,167) )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T09:10:46+08:00 ] 127.0.0.1 /order/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_cart` WHERE ( user_id=14 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_values,b.attr_name FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( a.id in (164,165,167) )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T09:10:58+08:00 ] 127.0.0.1 /Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jx_order` [ RunTime:0.2080s ]
+SQL: SELECT * FROM `jx_cart` WHERE ( user_id=14 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_values,b.attr_name FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( a.id in (164,165,167) )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id = 64 and goods_attr_ids = '164,165,167' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jx_order` (`user_id`,`addtime`,`total_price`,`name`,`address`,`tel`) VALUES ('14','1508029856','1110','2424','234','324') [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `jx_order_goods` [ RunTime:0.0400s ]
+SQL: INSERT INTO `jx_order_goods` (`order_id`,`goods_id`,`goods_attr_ids`,`price`,`goods_count`) VALUES ('49','64','164,165,167','555.00','2') [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0050s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\jxshop\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `jx_goods` SET `goods_number`=goods_number-2 WHERE ( id=64 ) [ RunTime:0.0790s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\jxshop\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `jx_goods` SET `goods_number`=goods_number+2 WHERE ( id=64 ) [ RunTime:0.0430s ]
+SQL: UPDATE `jx_goods_number` SET `goods_number`=goods_number-2 WHERE ( goods_id=64 and goods_attr_ids='164,165,167' ) [ RunTime:0.0010s ]
+SQL: DELETE FROM `jx_cart` WHERE ( user_id=14 ) [ RunTime:0.0730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T09:27:31+08:00 ] 127.0.0.1 /member/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jx_order` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_order` WHERE ( user_id=14 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T10:04:19+08:00 ] 127.0.0.1 /qq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.072004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Qq
+
+[ 2017-10-15T10:09:11+08:00 ] 127.0.0.1 /?code=F47F0E328AF8F4ECD6C1CA2910A3E036&state=9c997868217ca28696c8cd7eb21e6243
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cx_price>0 and start<1508033350 and end>1508033350 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8,9,12,7) ) LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (13,10) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 30 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (11) ) LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.316018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.317018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022001s ]
+
+[ 2017-10-15T10:09:27+08:00 ] 127.0.0.1 /?code=A96D71D835DB91894EC8038FADAC1302&state=914f94c105bc383ebdf3ae9b26d09800
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cx_price>0 and start<1508033367 and end>1508033367 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8,9,12,7) ) LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=5 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (13,10) ) LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tree D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 30 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (11) ) LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T10:11:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cx_price>0 and start<1508033465 and end>1508033465 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8,9,12,7) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=5 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (13,10) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tree D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 30 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (11) ) LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T10:11:10+08:00 ] 127.0.0.1 /User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T10:11:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cx_price>0 and start<1508033470 and end>1508033470 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8,9,12,7) ) LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (13,10) ) LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 30 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (11) ) LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:01:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 417 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.1740s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cx_price>0 and start<1508065281 and end>1508065281 ) LIMIT 5   [ RunTime:0.0450s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8,9,12,7) ) LIMIT 8   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=5 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (13,10) ) LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tree D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 30 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (11) ) LIMIT 8   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.220012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:01:26+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:01:26+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:13:08+08:00 ] 127.0.0.1 /User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+ERR: 非法操作:register
+
+[ 2017-10-15T19:13:15+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:13:15+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:13:19+08:00 ] 127.0.0.1 /User/sendcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T19:13:26+08:00 ] 127.0.0.1 /User/sendcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [8] Undefined variable: code D:\phpStudy\WWW\jxshop\Application\Home\Controller\UserController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: code D:\phpStudy\WWW\jxshop\Application\Home\Controller\UserController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:17:15+08:00 ] 127.0.0.1 /User/code.html?_=1508066235226
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-15T19:17:16+08:00 ] 127.0.0.1 /User/code.html?_=1508066235226?_=1508066236442
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:17:17+08:00 ] 127.0.0.1 /User/code.html?_=1508066235226?_=1508066236442?_=1508066237177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:17:18+08:00 ] 127.0.0.1 /User/code.html?_=1508066235226?_=1508066236442?_=1508066237177?_=1508066238089
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:17:24+08:00 ] 127.0.0.1 /User/sendcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-15T19:17:41+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin1' ) LIMIT 1   [ RunTime:0.0960s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('admin1','625b8d141b9ab6d18dcea0664b655fbd','800488') [ RunTime:0.1690s ]
+
+[ 2017-10-15T19:18:59+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:18:59+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:18:59+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:18:59+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-15T19:19:00+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:19:00+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-15T19:19:01+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T19:19:02+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T19:21:09+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:21:10+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:21:11+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T19:21:13+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T19:21:25+08:00 ] 127.0.0.1 /User/code.html?_=1508066485194
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:22:51+08:00 ] 127.0.0.1 /User/sendcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:23:02+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-15T19:23:06+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T19:23:08+08:00 ] 127.0.0.1 /User/code.html?_=1508066485194?_=1508066588207
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:23:09+08:00 ] 127.0.0.1 /User/code.html?_=1508066485194?_=1508066588207?_=1508066588975
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:23:13+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('admin2','b9d3259edfd6a412d356ecf2348217d0','458154') [ RunTime:0.0800s ]
+
+[ 2017-10-15T19:23:19+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T19:26:30+08:00 ] 127.0.0.1 /User/code.html?_=1508066485194?_=1508066588207?_=1508066588975?_=1508066790582
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-15T19:26:34+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin2' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-15T19:26:38+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T19:26:40+08:00 ] 127.0.0.1 /User/code.html?_=1508066485194?_=1508066588207?_=1508066588975?_=1508066790582?_=1508066799920
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:26:41+08:00 ] 127.0.0.1 /User/code.html?_=1508066485194?_=1508066588207?_=1508066588975?_=1508066790582?_=1508066799920?_=1508066801343
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:26:45+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('admin23','c1242b3430819ead4cc95fcbcc3c3c30','532614') [ RunTime:0.0900s ]
+
+[ 2017-10-15T19:27:15+08:00 ] 127.0.0.1 /User/code.html?_=1508066485194?_=1508066588207?_=1508066588975?_=1508066790582?_=1508066799920?_=1508066801343?_=1508066835302
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:27:17+08:00 ] 127.0.0.1 /User/code.html?_=1508066485194?_=1508066588207?_=1508066588975?_=1508066790582?_=1508066799920?_=1508066801343?_=1508066835302?_=1508066837470
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:27:23+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin233' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('admin233','51cd02261477947754279eb2fe92cb12','636627') [ RunTime:0.1520s ]
+
+[ 2017-10-15T19:27:28+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:27:28+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-10-15T19:27:28+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:27:29+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:27:29+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-15T19:27:29+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-15T19:27:29+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:27:29+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-15T19:27:52+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T19:27:58+08:00 ] 127.0.0.1 /User/code.html?_=1508066877950
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-15T19:27:59+08:00 ] 127.0.0.1 /User/code.html?_=1508066877950?_=1508066879189
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:28:03+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'php2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('php2','f0bcfb497636c75714f2c2f2defda25b','137902') [ RunTime:0.2210s ]
+
+[ 2017-10-15T19:28:03+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:28:03+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:28:12+08:00 ] 127.0.0.1 /User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+ERR: 非法操作:register
+
+[ 2017-10-15T19:29:05+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T19:29:05+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:29:07+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T19:29:07+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T21:15:37+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:1.0181s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+NOTIC: [2] require(./class.phpmailer.php): failed to open stream: No such file or directory D:\phpStudy\WWW\jxshop\ThinkPHP\Library\Vendor\email\email.php 第 2 行.
+
+[ 2017-10-15T21:18:03+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:18:33+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:18:34+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:18:35+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:18:35+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:18:35+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:18:35+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:18:35+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:18:35+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:18:36+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:18:36+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:22:19+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:22:20+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:22:20+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:22:20+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+
+[ 2017-10-15T21:26:55+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.073005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.074005s ]
+
+[ 2017-10-15T21:28:07+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-15T21:28:29+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T21:29:06+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T21:29:14+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-15T21:30:48+08:00 ] 127.0.0.1 /user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-15T21:51:29+08:00 ] 127.0.0.1 /user/registbyemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.023001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.023001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.376021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.376021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T21:51:51+08:00 ] 127.0.0.1 /user/registbyemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T21:53:29+08:00 ] 127.0.0.1 /user/registbyemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T21:53:36+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_user` WHERE ( email = '' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('admin5','af08104449b21324912a65357f5d7ff6','707434') [ RunTime:0.1000s ]
+
+[ 2017-10-15T21:53:37+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T21:53:38+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T21:54:15+08:00 ] 127.0.0.1 /user/registbyemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T21:54:33+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_user` WHERE ( email = '' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('admin11','8371285d9c323eeaf4c545afae9adf52','798208') [ RunTime:0.1590s ]
+
+[ 2017-10-15T21:54:33+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T21:54:33+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-10-15T22:01:59+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_user` WHERE ( email = '' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('admin13','fc62d9f9c7f24fba5eee2a1d00a3d25b','623718') [ RunTime:0.1390s ]
+
+[ 2017-10-15T22:01:59+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:02:00+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:02:31+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0170s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_user` WHERE ( email = '' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('admin15','5004345c35f2c90ec805b7d8da0c0dec','998489') [ RunTime:0.0880s ]
+
+[ 2017-10-15T22:02:31+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T22:02:31+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-10-15T22:03:29+08:00 ] 127.0.0.1 /user/registbyemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:03:29+08:00 ] 127.0.0.1 /user/registbyemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:03:58+08:00 ] 127.0.0.1 /user/registbyemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:04:10+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'sadasd' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_user` WHERE ( email = 'admi@163.com' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('sadasd','5125fc584784eda31d657e91bf0f875c','629129') [ RunTime:0.2690s ]
+
+[ 2017-10-15T22:05:15+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'sadasd1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_user` WHERE ( email = 'admi@163.com' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`,`email`) VALUES ('sadasd1','3a00a8850b5f691fdd01e47b7299b6b9','162567','admi@163.com') [ RunTime:0.1900s ]
+
+[ 2017-10-15T22:20:38+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'yihui' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_user` WHERE ( email = 'yolo_me@163.com' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`,`email`,`status`,`active_code`) VALUES ('yihui','2c6e1aeaff751e62d8067aa46cb0252f','199508','yolo_me@163.com','0','59e36eb2090cb') [ RunTime:0.1760s ]
+
+[ 2017-10-15T22:20:38+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'yihui' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-15T22:22:33+08:00 ] 127.0.0.1 /User/active.htmluser_id=26&active_code=59e36eb2090cb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+ERR: 非法操作:active.htmluser_id=26&active_code=59e36eb2090cb
+
+[ 2017-10-15T22:29:35+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'yihui1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_user` WHERE ( email = 'yolo_me@163.com' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-15T22:29:47+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-15T22:29:47+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:30:03+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-15T22:30:03+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-15T22:30:09+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:30:09+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:30:22+08:00 ] 127.0.0.1 /user/registbyemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T22:30:25+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:30:25+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:31:01+08:00 ] 127.0.0.1 /User/active/?user_id=26&active_code=59e36eb2090cb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `jx_user` WHERE ( user_id=26 ) LIMIT 1  
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `jx_user` WHERE ( user_id=26 ) LIMIT 1  
+
+[ 2017-10-15T22:31:21+08:00 ] 127.0.0.1 /User/active/?user_id=26&active_code=59e36eb2090cb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( id=26 ) LIMIT 1   [ RunTime:0.0670s ]
+SQL: UPDATE `jx_user` SET `status`='1' WHERE ( id=26 ) [ RunTime:0.1720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:31:23+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T22:31:23+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T23:16:33+08:00 ] 127.0.0.1 /user/registbyemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-15T23:16:57+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'yihui' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_user` WHERE ( email = 'yolo_me@163.com' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`,`email`,`status`,`active_code`) VALUES ('yihui','ef918ca12a61685a5211c67ed48e8a49','992501','yolo_me@163.com','0','59e37be7b96c3') [ RunTime:0.0730s ]
+
+[ 2017-10-15T23:16:57+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-15T23:16:57+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-15T23:19:00+08:00 ] 127.0.0.1 /User/active.html?user_id=27&active_code=59e37be7b96c3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( id=27 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `jx_user` SET `status`='1' WHERE ( id=27 ) [ RunTime:0.1910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T23:19:02+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T23:19:02+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T23:19:24+08:00 ] 127.0.0.1 /User/registbyemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'yihui' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_user` WHERE ( email = 'yolo_me@163.com' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`,`email`,`status`,`active_code`) VALUES ('yihui','764ba6052c6db7440d39775b464e428d','479989','yolo_me@163.com','0','59e37c7bb7183') [ RunTime:0.1250s ]
+
+[ 2017-10-15T23:19:25+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-15T23:19:25+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Home\Controller\CommonController.class.php on line 16 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 34 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

@@ -1,0 +1,107 @@
+<extend name="Public:base"/>
+<block name="title">ECSHOP 管理中心 - 分类添加 </block>
+<block name="header">
+    <span class="action-span"><a href="#">商品分类</a></span>
+    <span class="action-span1"><a href="#">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 添加分类 </span>
+    <div style="clear:both"></div>
+</block>
+<block name="body">
+<style type="text/css">
+.main-div table {background: #BBDDE5;}
+</style>
+    <form action="" method="post" name="theForm" enctype="multipart/form-data">
+       <div class="list-div">
+            <table width="100%" cellpadding="3" cellspacing="1">
+            <tbody>
+                <tr>
+                    <th colspan="4">订单信息</th>
+                </tr>
+                <tr>
+                    <td align="right" width="18%">订单号:</td>
+                    <td align="left" width="34%">{$info.id}</td>
+                    <td align="right" width="15%">订单金额:</td>
+                    <td align="left">{$info.order_price}</td>
+                </tr>
+                <tr>
+                    <td align="right" width="18%">下单时间:</td>
+                    <td align="left" width="34%">{$info.addtime|date='Y-m-d H:i:s',###}</td>
+                    <td align="right" width="15%">订单状态:</td>
+                    <td align="left"><eq name='info.pay_status' value="1">已支付 </eq><eq name='info.order_status' value="2">已发货<else />未发货</eq></td>
+                </tr>
+                <tr>
+                    <td align="right" width="18%">收货人:</td>
+                    <td align="left" width="34%">{$info.username}</td>
+                    <td align="right" width="15%">收货地址:</td>
+                    <td align="left">{$info.address}</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <div class="list-div">
+            <table width="100%" cellpadding="3" cellspacing="1">
+                <tr>
+                    <th colspan="4">发货信息</th>
+                </tr>
+                <tr>
+                    <td class="label">快递代号:</td>
+                    <td>
+                        <input type='text' name='com' value='{$info.com}'  />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">快递单号:</td>
+                    <td>
+                        <input type='text' name='no'  value='{$info.no}'  />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <input type="hidden" name="id" value="">
+        <div class="button-div">
+            <input type="hidden" name="id" value="{$info.id}">
+            <input type="submit" value=" 确定 " />
+            <input type="reset" value=" 重置 " />
+        </div>
+        <div class="list-div">
+            <table width="100%" cellpadding="3" cellspacing="1">
+                <tr>
+                    <th >地图信息</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="container" style="width:100%; height:300px"></div>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </form>
+</block>
+<block name="js">
+    <script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp"></script>
+    <script>
+        function init(){
+            //指定参数
+            var option = {
+                zoom:15,
+            };
+
+            var map = new qq.maps.Map(document.getElementById('container'),option);
+            map.panTo(new qq.maps.LatLng(39.916527,116.397128));
+            var callbacks={
+                complete:function(result){
+                    map.setCenter(result.detail.location);
+                    var marker = new qq.maps.Marker
+                    ({
+                        map:map,
+                        position: result.detail.location
+                    });
+                },
+            }
+            geocoder = new qq.maps.Geocoder(callbacks);
+            geocoder.getLocation("{$info.address}");
+        }
+        init();
+    </script>
+</block>

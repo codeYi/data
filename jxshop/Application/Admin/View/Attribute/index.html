@@ -1,0 +1,56 @@
+<extend name="Public:base"/>
+<block name="header">
+    <span class="action-span"><a href="{:U('add')}">添加用户名</a></span>
+    <span class="action-span1"><a href="">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 商品列表 </span>
+    <div style="clear:both"></div>
+</block>
+<block name="body">
+
+<!-- 商品列表 -->
+
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th>编号</th>
+                <th>属性名称</th>
+                <th>所属类型</th>
+                <th>属性类型</th>
+                <th>属性录入方式</th>
+                <th>默认值</th>
+                <th>操作</th>
+            </tr>
+            <volist name="data.list" id="vo">
+            <tr>
+                <td align="center" >{$vo.id}</td>
+                <td align="center" ><span>{$vo.attr_name}</span></td>
+                <td align="center" ><span>{$vo.type_id}</span></td>
+                <td align="center" ><span>
+                    <eq name="vo.attr_type" value="1">唯一属性<else />单选属性</eq>
+                </span></td>
+                <td align="center" ><span>
+                    <eq name="vo.attr_input_type" value="1">手工输入<else />列表选择</eq>
+                </span></td>
+                <td align="center" >{$vo.attr_value}</td>
+
+                <td align="center">
+                <a href="{:U('edit','attr_id='.$vo['id'])}" title="编辑">编辑</a>
+                <a href="{:U('dels','attr_id='.$vo['id'])}" onclick="return confirm('确定删除:{$vo.attr_name}');" title="回收站">删除</a>
+                    </gt>
+                </td>
+            </tr>
+            </volist>
+        </table>
+
+        <!-- 分页开始 -->
+        <table id="page-table" cellspacing="0">
+            <tr>
+                <td width="80%">&nbsp;</td>
+                <td align="center" nowrap="true">
+                    {$data.pageStr}
+                </td>
+            </tr>
+        </table>
+    <!-- 分页结束 -->
+    </div>
+</block>

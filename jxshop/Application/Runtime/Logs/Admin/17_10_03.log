@@ -1,0 +1,1364 @@
+[ 2017-10-03T20:42:55+08:00 ] 127.0.0.1 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-10-03T20:42:58+08:00 ] 127.0.0.1 /Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012000s ]
+
+[ 2017-10-03T20:42:58+08:00 ] 127.0.0.1 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T20:44:04+08:00 ] 127.0.0.1 /Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T20:44:07+08:00 ] 127.0.0.1 /Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T20:44:11+08:00 ] 127.0.0.1 /Admin/Login/verify.html?_=0.10779266403054666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T20:44:15+08:00 ] 127.0.0.1 /Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\AdminModel.class.php 第 10 行.
+SQL: SELECT * FROM `jx_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T20:44:16+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-03T20:44:16+08:00 ] 127.0.0.1 /Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-03T20:44:16+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T20:44:16+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-10-03T20:44:30+08:00 ] 127.0.0.1 /Admin/goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.1570s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,3   [ RunTime:0.0460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 34 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:54:17+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:54:17+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:54:17+08:00 ] 127.0.0.1 /Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:54:17+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:54:27+08:00 ] 127.0.0.1 /Admin/goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 34 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-03T21:54:56+08:00 ] 127.0.0.1 /Admin/goods/index?cate_id=0&intro_type=0&is_sale=0&keyword=%E5%8D%8E%E4%B8%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND goods_name like '%华为%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND goods_name like '%华为%' ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:55:08+08:00 ] 127.0.0.1 /Admin/goods/index?cate_id=0&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:55:11+08:00 ] 127.0.0.1 /Admin/goods/index?cate_id=0&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:55:13+08:00 ] 127.0.0.1 /Admin/Goods/index/cate_id/0/intro_type/0/is_sale/0/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 3,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-03T21:55:16+08:00 ] 127.0.0.1 /Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 9 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:55:41+08:00 ] 127.0.0.1 /Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 10 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `jx_goods` (`goods_name`,`goods_sn`,`cate_id`,`shop_price`,`is_sale`,`market_price`,`goods_body`,`addtime`) VALUES ('华为','JX59d396dd52fb0','3','123','1','123','&lt;p&gt;123&lt;/p&gt;','1507038941') [ RunTime:0.0720s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0050s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('43','1') [ RunTime:0.0700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-03T21:55:42+08:00 ] 127.0.0.1 /Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 9 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-03T21:55:44+08:00 ] 127.0.0.1 /Admin/category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\CategoryController.class.php on line 40 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:55:53+08:00 ] 127.0.0.1 /Admin/goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 34 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:55:55+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 3,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 34 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:56:00+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2.html?cate_id=0&intro_type=0&is_sale=0&keyword=%E5%8D%8E%E4%B8%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND goods_name like '%华为%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND goods_name like '%华为%' ) LIMIT 3,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:56:05+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2.html?cate_id=0&intro_type=0&is_sale=0&keyword=%E5%8D%8E%E4%B8%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND goods_name like '%华为%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND goods_name like '%华为%' ) LIMIT 3,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:56:06+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2.html?cate_id=0&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 3,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:56:10+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/0/intro_type/0/is_sale/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:56:14+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/0/intro_type/0/is_sale/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:56:19+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/0/intro_type/0/is_sale/0.html?cate_id=0&intro_type=0&is_sale=0&keyword=%E5%8D%8E%E4%B8%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND goods_name like '%华为%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND goods_name like '%华为%' ) LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:58:34+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 34 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:58:39+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1?cate_id=1&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0830s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:58:44+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2/cate_id/1/intro_type/0/is_sale/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 3,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:58:47+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:58:49+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html?cate_id=1&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:58:50+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html?cate_id=1&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:58:51+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html?cate_id=1&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:58:52+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html?cate_id=1&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:58:54+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html?cate_id=1&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:58:56+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html?cate_id=1&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-03T21:59:01+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html?cate_id=1&intro_type=is_rec&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) AND is_rec = 1 ) LIMIT 1   [ RunTime:0.0500s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) AND is_rec = 1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:59:03+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html?cate_id=1&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-03T21:59:04+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html?cate_id=1&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-03T21:59:05+08:00 ] 127.0.0.1 /Admin/Goods/index/p/1/cate_id/1/intro_type/0/is_sale/0.html?cate_id=1&intro_type=0&is_sale=0&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getCateTree(), called in D:\phpStudy\WWW\jxshop\Application\Admin\Controller\GoodsController.class.php on line 28 and defined D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: stop_id D:\phpStudy\WWW\jxshop\Application\Admin\Model\CategoryModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\WWW\jxshop\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( cate_id in(3,5,1) ) GROUP BY goods_id  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 AND (cate_id in (3,5,1) OR id in (43)) ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_sn D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 68 行.
+NOTIC: [8] Undefined variable: goods_price D:\phpStudy\WWW\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

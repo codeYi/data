@@ -1,0 +1,70 @@
+
+<?php>
+var_dump($_POST);
+</php>
+
+<extend name="Public:base" />
+<block name="title">ECSHOP 管理中心 - 商品添加 </block>
+<block name="header">
+    <span class="action-span"><a href="{:U('index')}">用户名列表</a></span>
+    <span class="action-span1"><a href="{:U('index/index')}">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 角色添加 </span>
+    <div style="clear:both"></div>
+</block>
+<block name="body">
+    <div class="tab-div">
+        <div id="tabbar-div">
+            <p>
+                <span class="tab-front" id="general-tab">通用信息</span>
+            </p>
+        </div>
+        <div id="tabbody-div">
+            <form enctype="multipart/form-data" action="" method="post">
+                <table width="90%" id="general-table" align="center">
+                    <tr>
+                        <td class="label">用户名称：</td>
+                        <td><input type="text" name="username" value="{$info.username}"size="30" />
+                            <span class="require-field">*</span></td>
+                    </tr>
+                    <tr>
+                        <td class="label">用户密码：</td>
+                        <td><input type="text" name="password" value=""size="30" />
+                            <span class="require-field">*</span></td>
+                    </tr>
+                    <tr>
+                        <td class="label">所属角色：</td>
+                        <td>
+                            <select name="role_id" >
+                                <volist name="role" id="vo">
+                                    <option value="{$vo.id}" <eq name="info.role_id" value="$vo.id">selected="selected"</eq>>{$vo.role_name}</option>
+                                </volist>
+
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <div class="button-div">
+                    <input type="hidden" name="id" value="{$info.id}">
+                    <input type="submit" value=" 确定 " class="button"/>
+                    <input type="reset" value=" 重置 " class="button" />
+                </div>
+            </form>
+        </div>
+    </div>
+</block>
+<block name="js">
+    <script type="text/javascript">
+        //实例化编辑器
+        //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+        var ue = UE.getEditor('editor');
+
+
+        //实现扩展分类的点击按钮增加select
+        $('#addExtCate').click(function(){
+            //复制select
+            var newSelect = $(this).next().clone();
+            //将内容写入到td中
+            $(this).parent().append(newSelect);
+        });
+    </script>
+</block>
